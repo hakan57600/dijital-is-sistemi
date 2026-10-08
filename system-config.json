@@ -1,0 +1,38 @@
+{
+  "systemName": "Dijital İş Sistemi",
+  "version": "1.0",
+  "portable": true,
+  "storageRoot": ".",
+  "purpose": "Tüm dijital işlerde tekrar eden işleri azaltmak, hafızayı korumak, örnekleri saklamak ve iş akışını düzenli tutmak.",
+  "principles": [
+    "Her işte amaç önce yazılır.",
+    "Her referans ve örnek saklanır.",
+    "Her görev için standart akış kullanılır.",
+    "Önce hafıza ve sistem, sonra üretim.",
+    "Düzeltme ve ekleme kolay olmalıdır.",
+    "Dijital dosyalar taşınabilir ve okunabilir olmalıdır."
+  ],
+  "folders": {
+    "01-amaçlar": "İstenen hedefin, amaçların ve önceliklerin kaydedildiği alan.",
+    "02-referanslar": "Beğenilen örnekler, referans görseller, bağlantılar ve kaynaklar.",
+    "03-örnekler": "Örnekler, denemeler ve başarıyla kullanılabilecek tasarım veya içerik örnekleri.",
+    "04-iş-akışı": "Her görev için izlenecek adımlar ve standart düzen.",
+    "05-notlar": "Kısa notlar, kişisel tercihler ve öğrenim notları.",
+    "06-geçmişler": "Tamamlanmış işler, geçmiş sonuçlar ve öğrenilen hatalar.",
+    "07-ayarlar": "Sistem tercihleri, özelleştirmeler ve yükseltme bilgileri.",
+    "şablonlar": "Yeni iş ve devam kayıtları için başlangıç şablonları."
+  },
+  "defaultWorkflow": [
+    "Amaç yaz.",
+    "İlgili referans ve örnekleri kontrol et.",
+    "İstenen çıktı formatını netleştir.",
+    "İşin adımlarını sıraya koy.",
+    "Üretimi yap.",
+    "Kontrol et, düzelt ve kaydet.",
+    "Sonucu geçmişler ve hafızaya ekle."
+  ],
+  "updatePolicy": "Bu sistem düzenli olarak güncellenebilir; yeni klasörler, kurallar ve örnekler eklenebilir; eski bilgiler korunur.",
+  "resumeFile": "06-geçmişler/DEVAM.md",
+  "agentInstructions": "AGENTS.md",
+  "privateRepositoryRecommended": true
+}

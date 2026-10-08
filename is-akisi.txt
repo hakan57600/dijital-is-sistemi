@@ -1,0 +1,44 @@
+DİJİTAL İŞ AKIŞI
+
+1. AMAÇ BELİRLE
+- Ne yapılacak?
+- Ne zaman bitecek?
+- Sonuç ne olmalı?
+- Hangi dosya veya format kullanılacak?
+
+2. REFERANS TOPLA
+- Benzer örnekler
+- Beğenilen görseller veya içerikler
+- Kısa notlar
+- İstenen stil ve renkler
+
+3. STANDARTLARI KAYDET
+- Kişisel tercihler
+- Renkler, stil, dil, düzen
+- Yapılacak işin temel kuralları
+
+4. ADIMLARI YAZ
+- Başlangıç
+- Ara adımlar
+- Son kontrol
+- Son kayıt
+
+5. ÜRETİM YAP
+- İstenen dosya veya içerik hazırlanır
+- Çalışma kaydedilir
+- Orijinal ve son versiyon ayrılır
+
+6. KONTROL ET
+- Amaçla uyumlu mu?
+- Kalite yeterli mi?
+- İstenilen format doğru mu?
+
+7. KAYDET VE HAFIZAYA EKLE
+- Sonuç dosya klasörüne konur
+- Beğenilen ve beğenilmeyenler not edilir
+- Gelecekte kullanılacak bilgi olarak saklanır
+
+8. GÜNCELLEME VE GENİŞLETME
+- Yeni eklemeler yapılabilir
+- Örnekler ve tercihler güncellenebilir
+- Yeni iş için sistem aynı kalır, sadece ilerler

@@ -1,0 +1,27 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+local-settings*
+
+# Temporary and operating-system files
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.bak
+*.swp
+
+# Large generated media; keep selected small references explicitly if needed
+*.psd
+*.ai
+*.mp4
+*.mov
+*.wav
+*.zip
