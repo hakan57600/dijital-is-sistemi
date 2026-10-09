@@ -17,8 +17,8 @@ Copilot CLI, repo kokundeki `AGENTS.md` talimatlarini okur. Bu dosya sistemi ve 
 - `01-amaçlar\` — hedefler ve oncelikler
 - `02-referanslar\` — kaynaklar, ornekler ve referanslar
 - `03-örnekler\` — tekrar kullanilabilir ciktilar
-- `04-iş-akışı\` — genel ve gorev turune ozel surecler
-- `05-notlar\` — kalici tercihler ve ogrenimler
+- `04-iş-akışı\` — genel ve gorev turune ozel surecler; tasarim geri bildirim dongusu `tasarim-geri-bildirim-akisi.md` dosyasinda
+- `05-notlar\` — kalici tercihler ve ogrenimler; tasarim geri bildirimleri `tasarim-ogrenimleri.md` dosyasinda birikir
 - `06-geçmişler\` — is kayitlari ve devam notlari
 - `07-ayarlar\` — tasinabilir sistem ayarlari
 - `şablonlar\` — yeni is ve devam kaydi sablonlari

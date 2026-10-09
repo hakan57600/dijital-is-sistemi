@@ -9,6 +9,7 @@ Bu depo, tek bir gorev turu icin degil, kullanicinin tum dijital isleri icin tas
 - Kullanici icin kalici ve tekrar kullanilabilir bir bilgi ortaya cikarsa ilgili notu, sablonu veya is kaydini guncelle. Guncellemeyi sessizce yapma; kisa sekilde bildir.
 - Yalnizca o goreve yarayan gecici ayrintilari kalici profile tasima.
 - Dosya, klasor, arac veya hesaplarin kurulu/erisilebilir oldugunu dogrulamadan varmis gibi soyleme.
+- Tasarim islerinde `05-notlar\tercihler-notu.txt`, `05-notlar\tasarim-ogrenimleri.md` ve ilgili referanslari incele. Kullanici geri bildiriminden tekrar kullanilabilir bir tasarim tercihi ciktiginda bu ogrenim dosyasina kaydet ve sonraki tasarimlarda uygula; tek seferlik revizyonlari kalici tercih gibi kaydetme.
 
 ## Niyet ve uygulama siniri
 
