@@ -33,6 +33,8 @@
   ],
   "updatePolicy": "Bu sistem düzenli olarak güncellenebilir; yeni klasörler, kurallar ve örnekler eklenebilir; eski bilgiler korunur.",
   "resumeFile": "06-geçmişler/DEVAM.md",
+  "expertiseWorkflow": "04-iş-akışı/uzmanlik-arastirma-akisi.md",
+  "expertiseNoteTemplate": "şablonlar/uzmanlik-notu.md",
   "agentInstructions": "AGENTS.md",
   "privateRepositoryRecommended": true
 }

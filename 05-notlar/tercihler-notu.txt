@@ -12,6 +12,7 @@ KİŞİSEL TERCIHLER VE NOTLAR
 - Kullanıcının tüm dijital işleri önemlidir; çalışma yaklaşımı yalnızca görsel tasarıma indirgenmemelidir.
 - Kullanıcı bir konudan bahsettiğinde, açıkça yapmasını istemeden uygulamaya başlama.
 - Kullanıcı açıkça görev verdiğinde kapsam dahilinde inisiyatif al; hiçbir işlem için evet/hayır veya onay isteme. Belirsizliği makul varsayımla çöz; iş için zorunlu bilgi eksikse yalnızca o bilgiyi sor. Riskli veya geri döndürülemez durumda onay istemeden en güvenli uygulanabilir yolu seç; güvenli/izin verilen şekilde yapılamıyorsa durumu açıkla ve güvenli alternatif sun veya dur.
+- Kullanıcı bir konuda uzmanlaşmamı istediğinde yüzeysel cevapla yetinme: güncel ve güvenilir profesyonel kaynakları araştır, bilgiyi sentezleyip kullanıcının amaç ve tercihleriyle birleştirerek uygula. Kalıcı uzmanlık bilgisini ve kaynaklarını ilgili uzmanlık notuna kaydet, sonraki ilgili işlerde kullan. Bu yöntem modelin temel eğitimini değiştirmez.
 - Depoya kaydedilen her güvenli ve işle ilgili değişikliği doğruladıktan hemen sonra GitHub'a commit/push et ve uzak dalda doğrula. Yalnızca ilgili dosyaları ekle; gizli veya hassas bilgi içerebilecek dosyaları yükleme.
 - Kullanıcı "kapan" dediğinde, bu oturumdaki ilgili ve güvenli işleri GitHub'a yedekle; hassas/kurumsal verileri yükleme. Push sonucunu doğrula.
 - Yedekleme sonrası Copilot CLI oturumunu kapat; arayüzden çıkış mümkün değilse bunu dürüstçe bildir ve `/exit` komutunu belirt.

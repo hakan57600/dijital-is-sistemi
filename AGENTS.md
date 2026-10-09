@@ -10,6 +10,7 @@ Bu depo, tek bir gorev turu icin degil, kullanicinin tum dijital isleri icin tas
 - Yalnizca o goreve yarayan gecici ayrintilari kalici profile tasima.
 - Dosya, klasor, arac veya hesaplarin kurulu/erisilebilir oldugunu dogrulamadan varmis gibi soyleme.
 - Tasarim islerinde `05-notlar\tercihler-notu.txt`, `05-notlar\tasarim-ogrenimleri.md` ve ilgili referanslari incele. Kullanici geri bildiriminden tekrar kullanilabilir bir tasarim tercihi ciktiginda bu ogrenim dosyasina kaydet ve sonraki tasarimlarda uygula; tek seferlik revizyonlari kalici tercih gibi kaydetme.
+- Kullanici belirli bir konuda "uzman ol", "ogren" veya benzeri acik bir istek verdiginde `04-iş-akışı\uzmanlik-arastirma-akisi.md` dosyasindaki sureci uygula. Guvenilir ve guncel profesyonel kaynaklari arastir, bilgiyi sentezle, kullanicinin amac ve tercihleriyle birlestir ve isleme uygula. Kalici alan bilgisi ve kaynaklarini uzmanlik notu sablonuyla depoda sakla; sonraki ilgili islerde kullan. Bu, modelin temel egitimini degistirdigi anlamina gelmez.
 
 ## Niyet ve uygulama siniri
 
