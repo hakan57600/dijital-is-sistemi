@@ -30,3 +30,11 @@ Klasor yapisi goreli yollara dayanir; bilgisayara ozel surucu harfi zorunlu degi
 ## Guncelleme
 
 Tercihler, is akislarina dair ogrenimler ve yeni sablonlar ihtiyac oldukca eklenebilir. Degisiklikler acikca kaydedilip commit/push edildiginde diger cihazlarda da kullanilabilir.
+
+## Windows baslatma betigi
+
+Ilk kullanimda GitHub'da oturum acip ozel depodaki `baslat.bat` dosyasini indirin ve calistirin. Betik depoyu `%USERPROFILE%\dijital-is-sistemi` konumuna klonlar. GitHub kimlik dogrulamasi istenirse Git Credential Manager'in tarayici adimlarini tamamlayin; sifre veya token'i betige yazmayin.
+
+Sonraki kullanimlarda yerel `baslat.bat` dosyasini calistirin. Betik GitHub'dan guncellemeleri alir, yerel degisiklik varsa korumak icin durur; temizse `main` dalini hizli-ileri gunceller ve Copilot CLI'i depo klasorunde acar. Git veya Copilot CLI kurulu degilse once ilgili uygulamayi kurun. CLI yoksa betik depo klasorunu acar.
+
+Betik Windows oturum acilisinda kendiliginden calismaz; ihtiyac oldugunda elle baslatilir. Boylece otomatik ag erisimi veya Copilot oturumu baslamaz.
