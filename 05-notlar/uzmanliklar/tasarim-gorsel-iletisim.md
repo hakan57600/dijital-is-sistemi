@@ -146,3 +146,47 @@ Ilk adimda hedef mecra ve teknik brief'ten dosya gereksinimini cikar; asagidakil
 - Nielsen Norman Group'un gorsel tasarim, hiyerarsi ve Gestalt kaynaklari; W3C WCAG 2.2 kontrast/renk kriterleri; Google Fonts, Apple HIG, Material Design 3 ve Adobe'nin baski hazirlama dokumani kontrol edildi.
 - Apple HIG ve Material Design 3 sayfalari dinamik oldugundan bu oturumda tam metinleri arastirma araci araciligiyla sinirli goruldu; bunlar dar arayuz gorevlerinde dogrudan tekrar incelenmeli.
 - Bu ilk genel uzmanlik arastirmasi, tum tasarim kitaplari/standartlari, her tasarim disiplini veya her mecra standardinin eksiksiz bibliyografik taramasi degildir. Marka, motion, veri gorsellestirme, UI, fotograf, ambalaj ve matbaa islerinde konunun alt alanina ozgu guncel standart ve kaynaklar ayrica arastirilmalidir.
+
+## Derinlestirilmis arastirma: tipografi, sistemler, kartvizit ve dijital erisim
+
+Bu ek; 2026-10-09 tarihinde W3C/WCAG, Unicode, TDK, Google Fonts, USWDS, IBM Carbon, Adobe, VistaPrint, Nielsen Norman Group ve Design Council kaynaklariyla capraz kontrol edildi. Standart kosullari tasarim yargilarindan ayir; bu kaynaklar secilmis guvenilir referanslardir, butun internetin veya her tasarim geleneginin eksiksiz tarandigi iddiasi degildir.
+
+### Tipografide dil ve optik olcek
+
+- Punto/piksel sayisi tek basina okunakliligi garanti etmez. Ayni nominal boyuttaki fontlar farkli x-height, karakter genisligi ve stroke kalinligina sahip olabileceginden gercek metinle hedef boyutta karsilastir; USWDS tipografi sistemi fontlar arasi optik boyut farkini aciklar.
+- Turkce metni secerken `I/ı` ile `İ/i` ayrimini ve `Ç, Ğ, Ö, Ş, Ü` karakterlerini kullanilan font, kalinlik, export ve fallback zincirinde tek tek denetle. Unicode'un Turkce ozel case-mapping kurallarini dikkate al; isimleri veya unvanlari genel buyuk/kucuk harf donusumune birakma.
+- Metni her zaman okunurluk, marka tonu ve gercek baski olceginde test et. Zorunlu iletisim bilgisini alana sigdirmak icin kucultmek yerine metin hiyerarsisini ve blok yerlesimini yeniden duzenle; mumkunse bitmis ebatta fiziksel prova incele.
+
+### Izgara, bosluk ve marka sistemi
+
+- Izgara hizalama ve tekrar edilebilir iliski kuran bir arac; icerigi zorla kaliba sokan evrensel kural degildir. USWDS'nin 8px tabanli bosluk tokenlari ve IBM Carbon'un responsive kolon sistemi ornek sistemlerdir, tum projelerde aynen uygulanmasi gereken zorunlu olculer degildir.
+- Renk, tipografi, logo varyantlari, bosluk, gorsel dili ve bilesen davranislarini rolu tanimli bir sistem olarak belgele. Tutarlilik taninirligi desteklemeli, baglama uygun farkliligi engellememelidir.
+- Dijital icerikte WCAG 2.2'nin yeniden akis (320 CSS px test kosulu), %200 metin boyutlandirma, klavye/fokus ve hedef boyutu kriterlerini ilgili istisnalariyla birlikte kontrol et; gercek cihaz, yardimci teknoloji ve kullanici testi yerine gecmis sayma.
+- Dijital gorsellerde alt metni goruntunun islevine gore yaz: bilgilendirici icin gerekli bilgi, dekoratif icin bos alt degeri, islevsel gorsel icin eylem/hedef; karmasik grafiklerde ek metinsel aciklama dusun. Metin gercek metin olarak sunulabiliyorsa goruntuye gommek yerine canli metin kullan.
+
+### Kartvizit tasariminda uzman kontrolu
+
+1. Once ulke, matbaa, bitmis ebat, tek/cift yuz, kagit ve finisaj bilgisini al; olcu ve kesim/tasma guvenli alanini guncel matbaa sablonundan dogrula. Ornek: VistaPrint ABD icin 3.5 x 2 in ve Avrupa icin 85 x 55 mm listeler; bunlar tum matbaalar icin ortak standart degildir.
+2. Birincil odagi (isim/marka), mesleki unvani ve iletisimi acik bir okuma sirasiyla kur. Ilgili bilgileri ikon ve hizalama ile grupla; bloklar arasi boslugu, blok ici satir araligindan farkli tut.
+3. Asimetrik alanlar, kesisen duzlemler veya diyagonal bolunme gibi bicim kararlarini ancak marka konumlandirmasina ve okunakliliga hizmet ediyorsa kullan. Referans tasarimdan hiyerarsi/denge gibi ozelligi aktar; kompozisyonu, logosunu veya ayirt edici duzenini birebir kopyalama.
+4. Gercek kart ebatinda cikti al. Unvan, isim, telefon ve adresi basili boyutta oku; ince cizgi, ikon ve yazilarin kesime/finisaja yakinligini, kagit uzerindeki kontrasti ve gerekirse QR kodu fiziksel prova uzerinde kontrol et.
+5. 300 DPI, belirli bleed, CMYK profili veya PDF standardini evrensel gereklilik diye varsayma. Bunlar matbaanin urunu ve is akisina baglidir; tedarikcinin sablonu ve spesifikasyonu esas alinir. VistaPrint'in 300 DPI onerisi yalnizca kendi kart urunu baglaminda bir ornektir.
+
+### Kaynak ekleri
+
+- Unicode, Turkish special casing ve case-mapping FAQ: Turkce I/İ donusumlerinin dil farkindaligiyla ele alinmasi. https://www.unicode.org/faq/casemap_charprop.html ve https://www.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
+- Turk Dil Kurumu, Buyuk Harflerin Kullanildigi Yerler: Turkce yazi/ozel ad yazimi icin editoryal kontrol. https://www.tdk.gov.tr/icerik/yazim-kurallari/buyuk-harflerin-kullanildigi-yerler/
+- U.S. Web Design System, Typesetting overview ve spacing units: rol tabanli tipografi ve bosluk tokenlari. https://designsystem.digital.gov/design-tokens/typesetting/overview/ ve https://designsystem.digital.gov/design-tokens/spacing-units/
+- IBM Carbon, 2x grid: breakpoints ve kolon yapisi icin responsive sistem ornegi. https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview
+- Google Fonts API: web font aileleri, stiller ve script subsetleri. https://developers.google.com/fonts/docs/getting_started
+- W3C WAI Images Tutorial: bilgilendirici, dekoratif, islevsel ve karmasik gorseller icin metin alternatifi. https://www.w3.org/WAI/tutorials/images/
+- W3C WCAG 2.2 Understanding: Reflow, Resize Text, Keyboard, Focus Visible ve Target Size Minimum. https://www.w3.org/WAI/WCAG22/Understanding/reflow.html ; https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html ; https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html ; https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html ; https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
+- VistaPrint, Business card dimensions: pazar/urun bazli bitmis ebat, bleed ve cozunurluk ornekleri; guncel tedarikci sablonunu kullan. https://www.vistaprint.com/hub/business-card-dimensions
+- Adobe Illustrator, Printer's marks and bleeds; Printing color separations: bleed ve baski akisinin matbaa/RIP kosullarina bagli olduguna dair teknik dokumanlar. https://helpx.adobe.com/illustrator/using/printers-marks-bleeds.html ve https://helpx.adobe.com/illustrator/using/printing-color-separations.html
+- Design Council, The Double Diamond: kesfet/tanimla/gelistir/sun tasarim dongusu icin surec modeli; her projeye zorunlu sira degil. https://www.designcouncil.org.uk/resources/the-double-diamond/
+
+### Kalibrasyon notu
+
+- WCAG sayisal kosullari dijital icerik uygunluguna iliskindir; matbu urunler icin dogrudan yasal punto veya kontrast standardi gibi sunulmamali.
+- Renk, bosluk, grid, hiyerarsi ve art direction kararlarinin cogu baglama bagli profesyonel yargilardir. Tasarim sistemleri, heuristikler ve ornekler test edilebilir secenek sunar; tek dogru cevap degildir.
+- Kaynak ve urun spesifikasyonlari degisebilir. Yeni baski/dijital ise gecebilecek guncel teknik ayrintilari teslimden once birincil kaynaktan dogrula.

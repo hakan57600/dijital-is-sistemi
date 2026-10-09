@@ -4,7 +4,9 @@ Bu dosya, kullanicinin tasarim geri bildirimlerinden cikan ve gelecekteki islerd
 
 ## Kalici geri bildirimler
 
-Henüz bu dosyada kayitli ek geri bildirim yok. Yeni bir tasarim duzeltmesinden genel ve tekrar kullanilabilir bir tercih ciktiginda buraya ekle.
+- Profesyonel tasarim talebinde yalnizca istenen ogeleri degistirmek veya puntolari buyutmek yeterli degil. Verilen referansin kompozisyonunu, alan dagilimini, bilgi hiyerarsisini, tipografik oranlarini, bosluklarini ve gorsel dilini analiz et; tasarimi bu kalite olcutleriyle bastan degerlendir.
+- Kurumsal kartvizitte isim, unvan ve iletisim bilgilerini bitmis baski boyutunda okunakli tut; puntolari tek tek degil birbirleriyle kurduklari hiyerarsi, satir kirilimi, hizalama ve guvenli alanla birlikte kontrol et. Referansin ayirt edici tasarimini kopyalama; ise yarayan tasarim ilkelerini yeni duzene uyarla.
+- Gorsel kaliteyi final dosyanin kendisini acip inceleyerek dogrula. Yazi tasmasi, karakter hatasi, ikonun yanlis gorunmesi, panel birlesim kusuru veya yanlis hiyerarsi varsa teslim etmeden duzelt.
 
 ## Projeye ozel notlar
 
