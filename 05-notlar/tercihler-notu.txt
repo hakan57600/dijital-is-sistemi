@@ -9,3 +9,8 @@ KİŞİSEL TERCIHLER VE NOTLAR
 - Yinelemeyi azaltmak gerekir.
 - Her düzenleme sonrası öğrenilen bilgi kaydedilir.
 - Sistem taşınabilir ve güncellenebilir olmalıdır.
+- Kullanıcının tüm dijital işleri önemlidir; çalışma yaklaşımı yalnızca görsel tasarıma indirgenmemelidir.
+- Kullanıcı bir konudan bahsettiğinde, açıkça yapmasını istemeden uygulamaya başlama.
+- Kullanıcı "kapan" dediğinde, bu oturumdaki ilgili ve güvenli işleri GitHub'a yedekle; hassas/kurumsal verileri yükleme. Push sonucunu doğrula.
+- Yedekleme sonrası Copilot CLI oturumunu kapat; arayüzden çıkış mümkün değilse bunu dürüstçe bildir ve `/exit` komutunu belirt.
+- Gereksiz evet/hayır onayları sorma; yalnızca önemli belirsizlik veya gizlilik riski olduğunda netleştir.

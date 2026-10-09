@@ -35,6 +35,17 @@ Bu depo, tek bir gorev turu icin degil, kullanicinin tum dijital isleri icin tas
 - Degisiklikleri diger cihazlara tasimak icin GitHub'a push et; guncel degisiklikleri almadan eski yerel kopyaya guvenme.
 - Surucu harfi ve kullanici klasoru gibi makineye ozel yollar yerine depo kokune gore goreli yol kullan.
 
+## "Kapan" istegi: yedekle ve oturumu bitir
+
+Kullanici bu oturumda "kapan", "yedekle ve kapat" veya ayni anlama gelen acik bir bitirme istegi verdiginde:
+
+1. O anki isi durdur; bu ifadeyi yedekleme ve Copilot CLI oturumunu bitirme talimati olarak yorumla.
+2. Bu oturumda olusturulan veya degistirilen ilgili ciktilari ve sistemdeki kalici notlari belirle. Butun bilgisayari tarayip ilgisiz dosyalari dahil etme.
+3. Parola, token, ozel anahtar, musteri/kurum gizli verisi veya hassas kisisel veri icerebilecek dosyalari GitHub'a yukleme. Belirsiz dosyalari atla ve adini/engelini bildir; gizlilik riskinde kullanicidan netlestirme almadan gonderme.
+4. Yalnizca bu ise ait ve guvenli dosyalari kaydet. Depo degisikliklerini commit et, `main` dalina push et ve uzak commit'i dogrula. Kimlik dogrulama veya ag hatasinda yedek basariliymis gibi soyleme; yerel degisiklikleri koru.
+5. Basarili yedeklemeden sonra Copilot CLI'i kapatmaya calis. Bu arayuz oturum surecinden cikisa izin vermiyorsa bunu acikca soyle ve kullaniciya `/exit` komutunu ver; kapattigini iddia etme.
+6. Kisa son mesajda push'in sonucunu, atlanan dosya varsa nedenini ve oturumu kapatma durumunu bildir. Bu istek gelmedikce her cevaptan sonra otomatik commit/push yapma.
+
 ## Dil ve iletisim
 
 - Kullanici Turkce konusuyor; aksini istemedikce Turkce yanit ver.
