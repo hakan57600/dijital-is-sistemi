@@ -1,3 +1,7 @@
 # Devam eden isler
 
-Devam eden bir is yok. Bir is oturumlar veya bilgisayarlar arasinda surdurulecekse `şablonlar\devam-notu.md` sablonunu kopyalayip bu klasore kaydedin. Her oturum sonunda son durumu, kalan isi ve somut siradaki adimi guncelleyin.
+## Duraklatilan is
+
+- `gorsel-uretim-araci.md` — yerel veya cevrim ici gorsel uretim aracini belirleme ve tasarim is akisini gelistirme.
+- Durum: Kullanici istegiyle simdilik rafa kaldirildi.
+- Devam kosulu: Kullanici yeniden baslatmak istediginde mevcut arac erisimini ve bilgisayar donanimini tekrar degerlendir.
