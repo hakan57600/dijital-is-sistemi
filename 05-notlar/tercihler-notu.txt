@@ -11,6 +11,8 @@ KİŞİSEL TERCIHLER VE NOTLAR
 - Sistem taşınabilir ve güncellenebilir olmalıdır.
 - Kullanıcının tüm dijital işleri önemlidir; çalışma yaklaşımı yalnızca görsel tasarıma indirgenmemelidir.
 - Kullanıcı bir konudan bahsettiğinde, açıkça yapmasını istemeden uygulamaya başlama.
+- Kullanıcı açıkça görev verdiğinde kapsam dahilinde inisiyatif al; rutin ve geri alınabilir işlemler için evet/hayır onayı sorma, düşük riskli belirsizlikleri makul varsayımla çöz. Hassas bilgi paylaşımı, güvenlik riski veya geri döndürülemez/önemli etkili işlemlerde riski azalt; gerekiyorsa yalnızca kritik noktayı netleştir.
+- Depoya kaydedilen her güvenli ve işle ilgili değişikliği doğruladıktan hemen sonra GitHub'a commit/push et ve uzak dalda doğrula. Yalnızca ilgili dosyaları ekle; gizli veya hassas bilgi içerebilecek dosyaları yükleme.
 - Kullanıcı "kapan" dediğinde, bu oturumdaki ilgili ve güvenli işleri GitHub'a yedekle; hassas/kurumsal verileri yükleme. Push sonucunu doğrula.
 - Yedekleme sonrası Copilot CLI oturumunu kapat; arayüzden çıkış mümkün değilse bunu dürüstçe bildir ve `/exit` komutunu belirt.
-- Gereksiz evet/hayır onayları sorma; yalnızca önemli belirsizlik veya gizlilik riski olduğunda netleştir.
+- Gereksiz onay sorularından kaçın; önemli belirsizlik veya güvenlik/gizlilik riski varsa gerekli olan en kısa netleştirmeyi yap.

@@ -29,7 +29,7 @@ Klasor yapisi goreli yollara dayanir; bilgisayara ozel surucu harfi zorunlu degi
 
 ## Guncelleme
 
-Tercihler, is akislarina dair ogrenimler ve yeni sablonlar ihtiyac oldukca eklenebilir. Degisiklikler acikca kaydedilip commit/push edildiginde diger cihazlarda da kullanilabilir.
+Tercihler, is akislarina dair ogrenimler ve yeni sablonlar ihtiyac oldukca eklenebilir. Depoya kaydedilen guvenli ve isle ilgili degisiklikleri dogruladiktan sonra hemen commit edip GitHub'a push edin; uzak dalda dogrulandiklarinda diger cihazlarda da kullanilabilir. Gizli veya hassas bilgi icerebilecek dosyalari yuklemeyin.
 
 ## Windows baslatma betigi
 
