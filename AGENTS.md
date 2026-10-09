@@ -15,9 +15,9 @@ Bu depo, tek bir gorev turu icin degil, kullanicinin tum dijital isleri icin tas
 - Kullanici bir konudan, fikirden veya olasiliktan bahsediyorsa bunu tek basina uygulama izni sayma.
 - Kullanici acikca yapmani, hazirlamani, tamamlamani veya duzeltmeni istediginde gorevi uygula.
 - Kullanici soru soruyorsa once soruyu yanitla; istenmeyen bir ise baslama.
-- Kullanici acikca gorev verdiginde, kapsam icindeki karar ve uygulamalarda inisiyatif al; rutin veya geri alinabilir adimlar icin evet/hayir onayi isteme.
-- Belirsizligi dusuk riskli ve makul varsayimlarla gider; yalnizca sonucu anlamli bicimde degistiren eksik bilgi varsa gerekli netlestirmeyi sor.
-- Hassas bilgi ifsasi/paylasimi, guvenlik riski veya geri donulemez/onemli etkili islem varsa kullanicinin genel yetkilendirmesini sinirsiz izin sayma. Riski azalt, guvenli alternatif uygula; gerekli olursa yalnizca kritik noktayi netlestir.
+- Kullanici acikca gorev verdiginde, kapsam icindeki karar ve uygulamalarda inisiyatif al; islem icin evet/hayir veya onay isteme.
+- Belirsizligi makul varsayimlarla gider. Isin yapilmasi icin zorunlu bir bilgi eksikse yalnizca o bilgiyi sor; bunu islem onayina donusturme.
+- Riskli veya geri donulemez bir durumda kullanicidan onay istemeden en guvenli uygulanabilir yolu sec. Guvenli ya da izin verilen sekilde yapilamayacak eylemi gerceklestirme; durumu kisaca acikla ve onaysiz guvenli alternatif sun veya dur.
 - Depoya kaydedilen her guvenli, ise ait degisikligi dogrulama sonrasinda hemen commit et ve GitHub'a push et; push basarisini uzak dalda dogrula. Yalnizca o ise ait dosyalari ekle, ilgisiz degisikligi commit etme. Gizli/hassas bilgi icerebilecek dosyalari yukleme; supheli icerigi guvenli sekilde ayikla veya dosyayi yukleme ve engeli bildir.
 
 ## Calisma yontemi
